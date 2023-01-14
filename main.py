@@ -1,0 +1,13 @@
+import adatfeldolgozas
+adatfeldolgozas.beolvas()
+print("1.Feladat")
+print(f"\t A filmek darabszáma {adatfeldolgozas.filmek_szamok()}")
+print("2. Feladat")
+print(f"\t a legrövidebb film címe {adatfeldolgozas.legrovidebb_film()}")
+print("3. Feladat")
+print(f"\t A száztizperces filmek szám {adatfeldolgozas.filmek_szaztizperc_van()}")
+print("4. Feladat")
+eredmeny = adatfeldolgozas.film_ajanlo()
+print(f"\t Film ajánló:  {eredmeny}")
+print("5. Feladat")
+adatfeldolgozas.fajl_beiras(eredmeny)
